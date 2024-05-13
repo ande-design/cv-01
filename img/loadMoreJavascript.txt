@@ -1,0 +1,30 @@
+Load more button javascript
+
+
+
+			<script type="text/javascript">
+				jQuery(window).load(function(){
+					items_set = [
+					
+						{category : 'branding', lika_count : '77', view_count : '215', src : 'images/prettyPhotoImages/pic01.jpg', title : 'Responsive Website - Casa Colombiana', content : '' },
+						
+						{category : 'UX_Design', lika_count : '45', view_count : '100', src : 'images/prettyPhotoImages/pic07.jpg', title : 'The Dovecote Website', content : '' },
+						
+						{category : 'graphics', lika_count : '22', view_count : '140', src : 'images/prettyPhotoImages/pic09.jpg', title : 'Green Isle Website', content : '' }
+						
+
+					];
+					jQuery('.portfolio_block').portfolio_addon({
+						type : 1, // 2-4 columns simple portfolio
+						load_count : 3,
+						
+						items : items_set
+					});
+					$('#container').isotope({
+					  animationOptions: {
+						 duration: 900,
+						 queue: false
+					   }
+					});
+				});
+			</script>

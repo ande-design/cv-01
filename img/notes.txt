@@ -1,0 +1,16 @@
+notes
+
+#1fcdff = #e20492 - theme colour 
+
+#e20492 in rgb background: rgba(226,4,146,1);
+
+#179abf = #89065a - box shadow
+
+
+#fdfdfc = #e20492 - social icon circle
+
+
+#1c1c1c = #fff    - social icon background
+
+
+#6d6d6d = #e20492 - downMenu hover 
